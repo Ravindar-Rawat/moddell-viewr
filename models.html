@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>models</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .box-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 90%;
+      max-width: 1200px;
+    }
+
+    .box {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 280px;
+      transition: transform 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .box a {
+      display: block;
+      padding: 15px;
+      text-align: center;
+      color: #fff;
+      background-color: #581919;
+      text-decoration: none;
+      border-radius: 0 0 10px 10px;
+      transition: background 0.3s ease;
+    }
+
+    .box a:hover {
+      background-color: #4f46e5;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Available Models</h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="https://smartcdn.gprod.postmedia.digital/driving/wp-content/uploads/2022/12/Lamborghini-Urus-scaled.jpg" alt="Image 1">
+      <a href="urus.html">Lamoborghini-Urus</a>
+    </div>
+    
+  </div>
+
+</body>
+</html>
